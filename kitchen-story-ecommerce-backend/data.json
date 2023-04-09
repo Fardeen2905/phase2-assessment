@@ -1,0 +1,103 @@
+{
+  "admin": [
+    {
+      "username": "admin",
+      "password": "123456"
+    }
+  ],
+  "users": [
+    {
+      "id": 1001,
+      "fullname": "fardeen",
+      "username": "fardeen",
+      "email": "fmahammad@teksystems.com",
+      "password": "123456"
+    },
+    {
+      "id": 1002,
+      "fullname": "karthik",
+      "username": "karthik",
+      "email": "kmk@teksystems.com",
+      "password": "1234567"
+    },
+    {
+      "id": "1003",
+      "fullname": "rajesh",
+      "username": "rajesh",
+      "email": "rajesh@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "fullname": "fardeen",
+      "username": "fardeen",
+      "email": "fmahammad@teksystems.com",
+      "password": "123456",
+      "id": "9nyjLTs"
+    },
+    {
+      "fullname": "fardeen",
+      "username": "fardeen",
+      "email": "fmahammad@teksystems.com",
+      "password": "123456",
+      "id": "qUvIMav"
+    }
+  ],
+  "fooditems": [
+    {
+      "id": "f1001",
+      "food_name": "chicken",
+      "food_img": "https://www.licious.in/blog/wp-content/uploads/2022/05/shutterstock_1587847900-750x750.jpg",
+      "food_price": 250,
+      "food_quantity": 5,
+      "food_added": false
+    },
+    {
+      "id": "f1003",
+      "food_name": "fish",
+      "food_img": "https://hattyfoods.com/wp-content/uploads/2021/04/Restaurant-style-fish-fry-recipe1.jpg",
+      "food_price": 600,
+      "food_quantity": "6",
+      "food_added": false
+    },
+    {
+      "id": "f1005",
+      "food_name": "prawns",
+      "food_img": "http://www.flavorsofmumbai.com/wp-content/uploads/2011/11/closeup-Prawns-Fry-Goan-1280x720.jpg",
+      "food_price": 800,
+      "food_quantity": 5,
+      "food_added": false
+    },
+    {
+      "id": "f1006",
+      "food_name": "mutton",
+      "food_img": "https://static.toiimg.com/thumb/52568357.cms?width=1200&height=900",
+      "food_price": 900,
+      "food_quantity": 5,
+      "food_added": false
+    },
+    {
+      "id": "f1006",
+      "food_name": "paneer",
+      "food_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCeIhNWiJNDEgZMApf4mlJ9l3_AXVHmk2mqQ&usqp=CAU",
+      "food_price": 200,
+      "food_quantity": 5,
+      "food_added": false
+    },
+    {
+      "id": "f1006",
+      "food_name": "tandoori",
+      "food_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqMxZta7dbR6xhCSGY63xDsgqpNw17MCPTew&usqp=CAU",
+      "food_price": 300,
+      "food_quantity": 5,
+      "food_added": false
+    },
+    {
+      "id": "Qi9Ilcx",
+      "food_name": "dosa",
+      "food_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWhc5Y1EP0mKKptJQ5qQN1rIpawfcLcuf1Q&usqp=CAU",
+      "food_price": "120",
+      "food_quantity": "1",
+      "food_added": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+
+
+<div class="container">
+  <header class="p-3 text-bg-success">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a routerLink="landingpage" class="nav-link"
+            ><h3>Kitchen Story</h3></a>
+        </div>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-3 justify-content-center mb-md-0">
+          <li>
+            <a routerLink="home" class="nav-link px-3 text-white">HOME</a>
+          </li>
+          <li>
+            <a routerLink="order" class="nav-link px-3 text-white">ORDER NOW</a>
+          </li>
+          <li>
+            <a routerLink="cart" class="nav-link px-3 text-white">CART</a>
+          </li>
+          <li>
+            <a routerLink="food-add" class="nav-link px-3 text-white">ADD</a>
+          </li>
+          <li>
+            <a routerLink="food-update" class="nav-link px-3 text-white">UPDATE</a>
+          </li>
+          <li>
+            <a routerLink="food-details" class="nav-link px-3 text-white">DETAILS</a>
+          </li>
+          <li>
+            <a routerLink="food-list" class="nav-link px-3 text-white">LIST</a>
+          </li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+          <button type="button" routerLink="register" class="btn btn-outline-light me-2">REGISTER</button>
+          <button routerLink="login" type="button" class="btn btn-outline-light me-2">LOGIN</button>
+          <button (click)="logout()" type="button" class="btn btn-outline-light me-2">LOGOUT</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+
